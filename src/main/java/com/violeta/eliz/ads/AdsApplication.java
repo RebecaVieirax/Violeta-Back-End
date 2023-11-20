@@ -7,6 +7,8 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.JavaMailSenderImpl;
 
+import java.util.Properties;
+
 
 @SpringBootApplication
 public class AdsApplication {
@@ -17,12 +19,12 @@ public class AdsApplication {
 
 	@Bean
 	public JavaMailSender getJavaMailSender() {
-		var mailSender = new JavaMailSenderImpl();
+		JavaMailSenderImpl mailSender = new JavaMailSenderImpl();
 		mailSender.setHost("smtp.gmail.com");
 		mailSender.setPort(587);
 		mailSender.setUsername("fecapads@gmail.com");
 		mailSender.setPassword("ealwxqakkbbhbohf");
-		var props = mailSender.getJavaMailProperties();
+		Properties props = mailSender.getJavaMailProperties();
 		props.put("mail.transport.protocol", "smtp");
 		props.put("mail.smtp.auth", "true");
 		props.put("mail.smtp.starttls.enable", "true");
