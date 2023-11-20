@@ -14,7 +14,7 @@
 	<name>ads</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
-		<java.version>8</java.version>
+		<java.version>12</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -72,10 +72,10 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.8.1</version> <!-- Versão mais recente -->
+				<version>3.8.1</version> <!-- Atualize para a versão mais recente -->
 				<configuration>
-					<source>1.8</source>
-					<target>1.8</target>
+					<source>1.8</source> <!-- Ou a versão do seu projeto -->
+					<target>1.8</target> <!-- Ou a versão do seu projeto -->
 				</configuration>
 			</plugin>
 			<plugin>
