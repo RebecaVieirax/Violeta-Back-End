@@ -28,12 +28,31 @@
 ## Comando para iniciar a aplicação quando o contêiner for iniciado
 #CMD ["java", "-jar", "ads-0.0.1-SNAPSHOT.jar"]
 
-FROM maven:3.8.3-openjdk-11-slim AS build
-WORKDIR /app
-COPY . .
-RUN mvn clean install package -DskipTests
+# Use a imagem base do Maven para construção
+FROM maven:3.8.4-openjdk-11 AS build
 
+# Defina o diretório de trabalho no contêiner
+WORKDIR /app
+
+# Copie o arquivo POM e faça o download das dependências
+COPY pom.xml .
+RUN mvn dependency:go-offline
+
+# Copie os arquivos do código-fonte e compile a aplicação
+COPY src ./src
+RUN mvn package -DskipTests
+
+# Estágio de construção final
 FROM openjdk:11-jre-slim
-COPY --from=build /target/ads-0.0.1-SNAPSHOT.jar /ads-0.0.1-SNAPSHOT.jar
+
+# Defina o diretório de trabalho no contêiner
+WORKDIR /app
+
+# Copie o arquivo JAR compilado do estágio anterior
+COPY --from=build /app/target/ads-0.0.1-SNAPSHOT.jar /app/app.jar
+
+# Exponha a porta necessária pela aplicação
 EXPOSE 8081
-CMD ["java", "-jar", "/ads-0.0.1-SNAPSHOT.jar"]
+
+# Comando para iniciar a aplicação quando o contêiner for executado
+CMD ["java", "-jar", "app.jar"]
