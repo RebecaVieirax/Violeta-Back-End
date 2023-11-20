@@ -23,7 +23,7 @@ WORKDIR /app
 COPY --from=build /app/target/ads-0.0.1-SNAPSHOT.jar /app/app.jar
 
 # Exponha a porta que a aplicação Spring Boot utiliza (geralmente 8080)
-EXPOSE 8081
+EXPOSE 8080
 
 # Comando para iniciar a aplicação quando o contêiner for iniciado
 CMD ["java", "-jar", "app.jar"]
