@@ -40,7 +40,7 @@ RUN mvn dependency:go-offline
 
 # Copie os arquivos do código-fonte e compile a aplicação
 COPY src ./src
-RUN mvn package -DskipTests
+RUN mvn clean install package -DskipTests
 
 # Estágio de construção final
 FROM openjdk:11-jre-slim
