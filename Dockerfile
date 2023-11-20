@@ -1,4 +1,4 @@
-FROM openjdk:jdk-12.0.2
+FROM openjdk:12.0.2
 EXPOSE 8080
 ARG JAR_FILE=target/ads-0.0.1-SNAPSHOT.jar
 ADD ${JAR_FILE} app.jar
