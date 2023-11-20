@@ -15,6 +15,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/Doador")
+@CrossOrigin(origins = "*")
 public class DoadorController {
 
     @Autowired

@@ -1,7 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
     <style>
@@ -14,12 +16,17 @@
 <body style="margin: 0; padding: 0;">
 
 <table align="center" border="0" cellpadding="0" cellspacing="0" width="720px" style="border:0;">
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
 
     <tr>
         <td bgcolor="#f5f6f1" style="padding: 40px 30px 40px 30px;">
-            <p>Ola ${nome},</p>
-            <p>Obrigado por fazer uma doacao</p>
-            <p>Caso ainda nao tenha enviado o valor peco que faco o pix ou transferencia o quanto antes.</p>
+            <p>Caro(a) ${nome},</p>
+            <p>Agradecemos imensamente pela sua generosa doação, apoio e confiança!</p>
+            <p>Sua contribuição faz toda a diferença, e nos permite continuar nosso trabalho em prol daqueles que carecem. </p>
+            <p>Caso ainda não tenha enviado o valor, solicitamos encarecidamente que realize a transferência assim que possível.</p>
+            <p>chave pix:ONGASVIOLETAS@GMAIL.COM</p>
+
+
 
             <p>Atenciosamente,</p>
             <p>Equipe Violeta.</p>
