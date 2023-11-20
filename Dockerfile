@@ -49,10 +49,10 @@ FROM openjdk:11-jre-slim
 WORKDIR /app
 
 # Copie o arquivo JAR compilado do estágio anterior
-COPY --from=build /app/target/ads-0.0.1-SNAPSHOT.jar /app/app.jar
+COPY --from=build /app/target/ads-0.0.1-SNAPSHOT.jar /app/ads-0.0.1-SNAPSHOT.jar
 
 # Exponha a porta necessária pela aplicação
 EXPOSE 8081
 
 # Comando para iniciar a aplicação quando o contêiner for executado
-CMD ["java", "-jar", "app.jar"]
+CMD ["java", "-jar", "ads-0.0.1-SNAPSHOT.jar"]
