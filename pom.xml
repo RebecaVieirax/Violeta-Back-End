@@ -70,8 +70,8 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.8.1</version> <!-- Atualize para a versão mais recente -->
 				<configuration>
-					<source>1.8</source> <!-- Ou a versão do seu projeto -->
-					<target>1.8</target> <!-- Ou a versão do seu projeto -->
+					<source>1.12</source> <!-- Ou a versão do seu projeto -->
+					<target>1.12</target> <!-- Ou a versão do seu projeto -->
 				</configuration>
 			</plugin>
 			<plugin>
