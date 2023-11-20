@@ -34,7 +34,7 @@
     </tr>
     <tr>
         <td bgcolor="#f5f6f1" style="font-size: 1rem; color: #505050; padding: 20px;">
-            <p>Caso voce nao tenha solicitado este e-mail, favor desconsidera-lo.</p>
+            <p>Caso você não tenha solicitado este e-mail, favor desconsiderá-lo.</p>
         </td>
     </tr>
     <tr>
