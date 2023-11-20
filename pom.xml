@@ -63,34 +63,15 @@
 
 	</dependencies>
 
+
 	<build>
 		<plugins>
 			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.8.1</version> <!-- Atualize para a versão mais recente -->
-				<configuration>
-					<source>1.12</source> <!-- Ou a versão do seu projeto -->
-					<target>1.12</target> <!-- Ou a versão do seu projeto -->
-				</configuration>
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-jar-plugin</artifactId>
-				<version>3.3.0</version> <!-- Use a versão mais recente, se disponível -->
-				<configuration>
-					<archive>
-						<manifest>
-							<addClasspath>true</addClasspath>
-							<classpathPrefix>lib/</classpathPrefix>
-							<mainClass>com.violeta.eliz.ads.AdsApplication</mainClass> <!-- Substitua com o caminho da sua classe principal -->
-						</manifest>
-					</archive>
-				</configuration>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
 	</build>
-
 
 </project>
 
