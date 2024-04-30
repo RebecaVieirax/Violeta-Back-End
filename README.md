@@ -9,7 +9,7 @@
 
 ## <a href="https://www.linkedin.com/in/rebeca-da-silva-vieira-850a83242?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app/"> Rebeca Vieira</a><br>
 
-## Professores Orientadores: <a href="https://www.linkedin.com/in/francisco-escobar?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">Francisco Escobar</a>,<a href="https://www.linkedin.com/in/jbuesso?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">José Carlos Buesso
+## Professores Orientadores: <a href="https://www.linkedin.com/in/francisco-escobar?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">Francisco Escobar</a>, <a href="https://www.linkedin.com/in/jbuesso?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">José Carlos Buesso
 
 
 # Projeto Violeta Eliz
