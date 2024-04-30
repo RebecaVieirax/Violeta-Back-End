@@ -13,10 +13,7 @@
 
 
 # Projeto Violeta Eliz
-
-<p align="center">
-<img src="https://scontent-gru1-1.xx.fbcdn.net/v/t39.30808-1/309658830_458734096282108_8584740478841679683_n.jpg?stp=cp0_dst-jpg_e15_p120x120_q65&_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=-wv-2OX-HoAAX_YvjJr&_nc_ht=scontent-gru1-1.xx&oh=00_AfCYT0ve3N418WGZEY7x00QfTwU3w9fRmXWfXi2wPw_fuA&oe=6563846D" alt="logo violeta" border="0">
- </p>
+ 
 <p align="center"> o projeto violeta eliz é uma instituição sem fins lucrativos que trata de mulheres e crianças em situação de vulnerabilidade. Este passo do backend atrelado ao banco de dados contém a função de somar os valores arrecdados e deixar visível no site para os doadores</p>
 
 ## 🛠 Estrutura de pastas
